@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+
+    <style>
+
+        ul {
+            list-style: none;
+        }
+
+        table {
+            border: solid 1px gray;
+        }
+
+        table thead th {
+            background-color: black;
+            color: white;
+            border-style: hidden;
+        }
+
+        table tfoot td {
+            background-color: lightgray;
+        }
+
+        table tbody tr:nth-child(even) td{
+            background-color: #f1f1f1;
+        }
+
+        table tbody tr:hover td{
+            background-color: #e9e9e9;
+            cursor: pointer;
+        }
+
+        table tbody {
+            border: 1px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="clinica.html">Sobre a clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header" align="center">
+                <font face="calibri"><h1>Horários de Atendimento</h1></font>
+                <img src="https://radioclinicaudi.com.br/wp-content/uploads/2020/02/confira-nosso-horario-de-atendimento-radioclinica-uberlandia.jpg" width="300" />
+                
+            </div>
+    
+            <div class="content">
+                
+                <strong>
+
+                    <h3>Abaixo há uma tabela com todos nossos serviços, horários de atendimento e valores por cada um</h3>
+
+                </strong>
+
+                <center>
+
+                    <table summary="Tabela com horários de funcionamento da clínica e serviços disponíveis"  cellspacing="0" cellpadding="10"  border="1">
+
+                        <thead>
+                        
+                            <tr>
+                                <th colspan="5">Horários de Atendimento</th>
+                            </tr>
+                            <tr>
+                                    
+                                <th>Serviços</th>
+                                <th>Segunda a Sexta</th>
+                                <th>Sábados</th>
+                                <th>Feriados</th>
+                                <th>Valor</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <th>Uncologia</th>
+                                <th>07h - 19h</th>
+                                <th>10h - 16h</th>
+                                <th>10h - 16h</th>
+                                <th>//</th>
+                            </tr>
+
+                            <tr>
+                                <th>Psiquiatria</th>
+                                <th>10h - 17h</th>
+                                <th>10h - 16h</th>
+                                <th>10h - 16h</th>
+                                <th>R$ 150,00/h</th>
+                            </tr>
+
+                            <tr>
+                                <th>Psicologia</th>
+                                <th>10h - 17h</th>
+                                <th>10h - 16h</th>
+                                <th>10h - 16h</th>
+                                <th>R$ 100,00/h</th>
+                            </tr>
+
+                            <tr>
+                                <th>Fisioterapia</th>
+                                <th>07h - 19h</th>
+                                <th>10h - 16h</th>
+                                <th>08h - 16h</th>
+                                <th>R$ 100/sessão</th>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </center>
+
+            </div>
+    
+            <div class="footer">
+                
+                <strong>
+                    <font face="arial">
+                         <p>Estamos localizados: Av. Cassiopeia, 95 - Jardim Satélite, São José dos Campos - SP, 12230-010</p>
+                         <p>Nosso Cel para contato: +55 (12) 98145-9052 || <img src="WhatsApp_Logo_PNG_Sem_Fundo_Transparente.png" width="15"/> WhatsApp: +55 (12) 99204-7664</p>   
+                     </font>
+                 </strong>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
